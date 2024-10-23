@@ -1,0 +1,115 @@
+EXPERIMENT NO. 1
+Title: To implement various basic Linux commands
+Aim: - To implement various basic Linux commands
+System Software: -Ubuntu System
+Theory/ Working Principle:
+Linux is an operating system's kernel. Linux is free and open-source, that means
+that you can
+simply change anything in Linux and redistribute it in your own name! There are
+several Linux
+Distributions, commonly called “distros”.
+● Ubuntu Linux
+● Red Hat Enterprise Linux
+● Linux Mint
+● Debian
+● Fedora
+Linux Shell or “Terminal”
+So, basically, a shell is a program that receives commands from the user and gives
+it to the OS to process, and it shows the output. Linux's shell is its main part.
+To open the terminal, press Ctrl+Alt+T in Ubuntu, or press Alt+F2
+Linux Commands
+Basic Commands
+
+1. pwd (Print Working Directory)
+ Command: pwd
+ Description: Shows the current working directory path.
+ Example:
+
+2. ls (List Directory Contents)
+ Command: ls
+ Description: Lists the files and directories in the current directory.
+ Example:
+ls
+ls -l # Detailed list
+ls -a # Includes hidden files
+
+3. cd (Change Directory)
+ Command: cd [directory]
+ Description: Changes the current directory to another directory.
+ Example:
+cd /home/user/Documents
+cd .. # Move up one directory
+
+4. touch (Create a New File)
+ Command: touch [filename]
+ Description: Creates a new empty file.
+ Example: touch newfile.txt
+
+5. mkdir (Make Directory)
+ Command: mkdir [directory_name]
+ Description: Creates a new directory.
+ Example: mkdir new_directory
+
+6. cp (Copy Files)
+ Command: cp [source] [destination]
+ Description: Copies files or directories.
+ Example:
+cp file.txt /home/user/backup/
+cp -r directory/ /home/user/backup/ # Copy directory recursively
+
+7. mv (Move or Rename Files)
+ Command: mv [source] [destination]
+ Description: Moves or renames files or directories.
+ Example:
+oldname.txt newname.txt
+mv file.txt /home/user/Documents/
+
+8. rm (Remove Files)
+ Command: rm [file]
+ Description: Deletes files or directories.
+ Example:
+file.txt
+rm -r directory/ # Remove directory and its contents
+
+9. cat (Concatenate and Display File Content)
+ Command: cat [file]
+ Description: Displays the contents of a file.
+ Example: cat file.txt
+
+
+10. echo (Display a Line of Text)
+ Command: echo [text]
+ Description: Prints text or variables to the terminal or writes to a file.
+ Example
+echo "Hello, World!"
+echo "This is a file" > file.txt # Write text to file
+
+11. chmod (Change File Permissions)
+ Command: chmod [permissions] [file]
+ Description: Changes the file or directory permissions.
+ Example: chmod 755 script.sh
+ # Gives read, write, and execute permissions to the owner, and read and
+execute to others
+
+12. chown (Change File Ownership)
+ Command: chown [user]:[group] [file]
+ Description: Changes the ownership of a file or directory.
+ Example: chown user:group file.txt
+
+13. ps (Process Status)
+ Command: ps
+ Description: Displays a snapshot of the current processes.
+ Example: ps aux # Detailed list of all running processes
+
+14. kill (Terminate Processes)
+ Command: kill [PID]
+ Description: Kills a process by its process ID.
+ Example: kill 1234 # Terminate process with PID 1234
+
+15. df (Disk Space Usage)
+ Command: df
+ Description: Shows the disk space usage of the filesystem.
+ Example: df -h # Human-readable format
+
+Conclusion: Hence we understand the concept of various basic linux commands.
+And perform the various command in linux

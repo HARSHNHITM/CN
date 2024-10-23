@@ -1,0 +1,65 @@
+Commands
+
+ifconfig
+ping google.com
+traceroute google.com
+route
+arp
+Rarp
+netstat
+nslookup
+dig nhitm.ac.in
+
+
+theory
+
+
+1).Ping Command Syntax:
+
+Short for Packet Internet Groper, ping is a utility used to verify whether or not a network data
+packet is capable of being distributed to an address without errors. The ping utility is commonly
+used to check for network errors.
+
+2) Tracert Command
+The tracert command is used to visually see a network packet being sent and received and the
+amount of hops required for that packet to get to its destination. Users with Microsoft Windows
+2000 and Windows XP who need additional information network latency and network loss should also
+consider using the path ping command.
+
+3).IPCONFIG: -
+(Internet Protocol Configuration) A Windows command line utility that is used to manage the IP
+address assigned to the machine it is running in. Used without any additional parameters, it
+displays the computer's currently assigned IP, subnet mask and default gateway addresses.
+
+4)netstat:-
+Abbreviation of network statistics, the netstat command is a command found in almost all command line environments that allow you to view the statistics of the network.
+
+5) ARP
+Short for Address Resolution Protocol, ARP is used with the IP for mapping a 32-bit Internet
+Protocol address to a MAC address that is recognized in the local network specified in RFC 826.
+Once recognized, the server or networking device returns a response containing the required address.
+
+6. NSLOOKUP:
+Nslookup (stands for “Name Server Lookup”) is a useful command for getting information
+from the DNS server. It is a network administration tool for querying the Domain Name System
+(DNS) to obtain domain name or IP address mapping or any other specific DNS record. It is
+also used to troubleshoot DNS related problems.
+
+7. RARP:-
+
+Rarp manipulates the kernel's RARP table in various ways. The primary options are clearing an
+address mapping entry and manually setting up one. For debugging purposes, the rarp program
+also allows a complete dump of the RARP table.
+
+8.ROUTE:
+
+Route command in Linux is used when you want to work with the IP/kernel routing table. It is
+mainly used to set up static routes to specific hosts or networks via an interface. It is used for
+showing or update the IP/kernel routing table.
+
+9.DIG
+
+The dig command in Linux is used to gather DNS information. It stands for Domain Information
+Groper, and it collects data about Domain Name Servers. The dig command is helpful for
+diagnosing DNS problems, but is also used to display DNS information. This guide will help you
+understand and use the Linux dig command.

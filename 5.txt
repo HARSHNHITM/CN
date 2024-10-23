@@ -1,0 +1,28 @@
+Title: Design VPN and configure RIP using packet Tracer
+
+Aim: - Design VPN and configure RIP using packet Tracer
+
+System Software: - Cisco Packet Tracer software
+
+Theory/ Working Principle:
+
+
+Routing Information Protocol (RIP) protocol is the intradomain (interior) routing
+protocol which is based on distance vector routing and it is used inside an
+autonomous system.Routers and network links are called nodes. The first
+column of the routing table is the destination address. The cost metric in this
+protocol is hop count which is the number of networks which need to be passed
+to reach a destination. Here infinity is defined by a fixed number which is 16; it
+means that using a Rip network cannot have more than 15 hops. RIP Version-1:
+It is an open standard protocol.It is a classful routing protocol. Updates are
+broadcasted. Its administrative distance value is 120, it means it is not reliable,
+The lesser the administrative distance value the reliability is much more. Its
+metric is hop count and max hop count is 15. There will be a total of 16 routers
+in the network. When there will be the same number of hop to reach the
+destination, Rip starts to perform load balancing. Load balancing means if
+there are three ways to reach the destination and each way has the same number of
+routers then packets will be sent to each path to reach the destination. This
+reduces traffic and also the load is balanced. It is used in small companies, in
+this protocol routing tables are updated in each 30 sec. Whenever a link breaks,
+the rip traces out another path to reach the destination. It is one of the slowest
+protocols.
