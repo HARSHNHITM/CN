@@ -1,15 +1,33 @@
-Title: To implement Cisco Packet Tracer.
+Title: To perform an experiment using WIRESHARK to understand the
+operation of TCP/IP layers.
 
-Aim: - To implement Cisco Packet Tracer
+Aim: - To perform an experiment using WIRESHARK to understand the
+operation of TCP/IP layers.
 
-System Software: - Cisco Packet Tracer software
+System Software: -Wireshark,Ubuntu System
 
 Theory/ Working Principle:
-Cisco Packet Tracer
-Packet Tracer is a cross-platform visual simulation tool designed by Cisco Systems that
-allows users to create network topologies and imitate modern computer networks. The software
-allows users to simulate the configuration of Cisco routers and switches using a simulated command
-line interface. Packet Tracer makes use of a drag and drop user interface, allowing users to
-add and remove simulated network devices as they see fit. The software is mainly focused
-towards Certified Cisco Network Associate Academy students as an educational tool for helping them
-learn fundamental CCNA concepts.
+
+WIRESHARK is a network packet analyzer . A network packet
+analyzer presents captured packet data in as much data as possible.
+Here are some reasons people use Wireshark:
+1. Network Administrators use it to troubleshoot network problems
+2. Network security engineers use it to examine security problems
+3. QA engineers use it to veri†y network applications
+4. Developers use it to debug protocol implementations
+5. People use it to learn network protocol internals
+Analyzing Data Packets on Wireshark
+Wireshark shows you three different panes for inspecting packet data. The Packet
+List, the top pane, is a list of all the packets in the capture. When you click on a
+packet, the other two panes change to show you the details about the selected
+packet. You can also tell if the packet is part of a conversation.
+Wireshark Capture Filters
+
+Capture filters limit the captured packets by the filter. Meaning if the packets don't
+match
+the filter, Wireshark won't save them. Here are some examples of capture filters:
+host IP-address: this filter limits the capture to traffic to and from the IP address net
+192.168.0.0/24: this filter captures all traffic on the subnet.
+dst host IP-address: capture packets sent to the
+specified host. port 53: capture traffic on port
+53 only.

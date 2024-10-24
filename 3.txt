@@ -1,33 +1,59 @@
-Title: To perform an experiment using WIRESHARK to understand the
-operation of TCP/IP layers.
+Title: To perform network discovery using discovery tools Nmap
 
-Aim: - To perform an experiment using WIRESHARK to understand the
-operation of TCP/IP layers.
+APPARATUS: Ubuntu System
 
-System Software: -Wireshark,Ubuntu System
+Aim: To perform network discovery using discovery tools Nmap.
 
-Theory/ Working Principle:
+Theory:
+Nmap (“Network Mapper”)is a free and open source utility for network
+discovery and security auditing
+Zenmap is the official graphical user interface (GUI) for the Nmap Security
+Scanner.
+Nmap uses raw IP packets in novel way to determine what hosts are available
+on the network, what services those hosts are offering, what operating
+systems they are running, what type of packet filters/firewalls are in use and
+dozens of other characteristics.
+Nmap runs on all major computer operating system, and official binary
+packages are available for Linux, Windows and Mac OS X.
+In addition to classic command line Nmap executable, the Nmap suite includes an advanced GUI and results viewer (Zenmap).
+Though Nmap has evolved over the years and is extremely flexible, at heart it's
+a port- scan tool, gathering information by sending raw packets to system
+ports. It listens for responses and determines whether ports are open, closed
+or filtered in some way by, for example, a firewall. Other terms used for port
+scanning include port discovery or enumeration.
+The packets that Nmap sends out return with IP addresses and a wealth of
+other data, allowing you to identify all sorts of network attributes, giving you a
+profile or map of the network and allowing you to create a hardware and
+software inventory.
 
-WIRESHARK is a network packet analyzer . A network packet
-analyzer presents captured packet data in as much data as possible.
-Here are some reasons people use Wireshark:
-1. Network Administrators use it to troubleshoot network problems
-2. Network security engineers use it to examine security problems
-3. QA engineers use it to veri†y network applications
-4. Developers use it to debug protocol implementations
-5. People use it to learn network protocol internals
-Analyzing Data Packets on Wireshark
-Wireshark shows you three different panes for inspecting packet data. The Packet
-List, the top pane, is a list of all the packets in the capture. When you click on a
-packet, the other two panes change to show you the details about the selected
-packet. You can also tell if the packet is part of a conversation.
-Wireshark Capture Filters
+How to use Nmap
+There is a wide range of free network monitoring utilities as well as free opensource
+vulnerability scanners available to network administrators and security
+auditors. What makes Nmap stand out as the tool IT and network managers
+need to know is its flexibility and power. While the basis of Nmap's functionality
+is port scanning, it allows for a variety of related capabilities including:
+Network mapping: Nmap can identify the devices on a network (also called
+host discovery), including servers, routers and switches, and how they're
+physically connected.
+OS detection: Nmap can detect the operating systems running on network
+devices (also called OS fingerprinting), providing the vendor name, the
 
-Capture filters limit the captured packets by the filter. Meaning if the packets don't
-match
-the filter, Wireshark won't save them. Here are some examples of capture filters:
-host IP-address: this filter limits the capture to traffic to and from the IP address net
-192.168.0.0/24: this filter captures all traffic on the subnet.
-dst host IP-address: capture packets sent to the
-specified host. port 53: capture traffic on port
-53 only.
+underlying operating system, the version of the software and even an estimate
+of devices' uptime.
+Service discovery: Nmap can not only identify hosts on the network, but
+whether they're acting as mail, web or name servers, and the particular
+applications and versions of the related software they're running.
+
+Security auditing: Figuring out what versions of operating systems and
+applications are running on network hosts lets network managers determine
+their vulnerability to specific flaws. If a network admin receives an alert about a
+vulnerability in a particular version of an application, for example, she can
+scan her network to identify whether that software version is running on the
+network and take steps to patch or update the relevant hosts. Scripts can also
+automate tasks such as detecting specific vulnerabilities.
+Result:(Attach Print out)
+
+CONCLUSION:-
+Thus, we have successfully performed network discovery using
+discovery tools Nmap. We understood that the Nmap suite includes an
+advanced GUI and results viewer

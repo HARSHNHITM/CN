@@ -1,0 +1,75 @@
+Title: Telnet Using Packet Tracer
+
+Aim: - Telnet Using Packet Tracer
+
+System Software: -Cisco Packet Tracer
+
+Theory/ Working Principle:
+
+TELNET stands for Terminal Network. It is a type of protocol that enables one
+computer to connect to the local computer. It is used as a standard TCP/IP
+protocol for virtual terminal service which is provided by ISO. The computer
+which starts the connection is known as the local computer.
+The computer which is being connected to i.e. which accepts the connection
+known as the remote computer.
+During telnet operation, whatever is being performed on the remote computer
+will be displayed by the local computer. Telnet operates on a client/server
+principle. The local computer uses a telnet client program and the remote
+computers use a telnet server program.
+
+Logging
+The logging process can be further categorized into two parts:
+
+1. Local Login
+2. Remote Login
+
+1. Local Login: Whenever a user logs into its local system, it is known as local
+login.
+2. Remote Login: Remote Login is a process in which users can log in to a
+remote site i.e. computer and use services that are available on the remote
+computer. With the help of remote login, a user is able to understand the result
+of transferring the result of processing from the remote computer to the local
+computer.
+
+Advantages of Telnet
+1. It provides remote access to someone’s computer system.
+2. Telnet allows the user for more access with fewer problems in data
+transmission.
+3. Telnet saves a lot of time.
+4. The oldest system can be connected to a newer system with telnet
+having different operating systems.
+
+Disadvantages of Telnet
+1. As it is somehow complex, it becomes difficult to beginners in
+understanding.
+2. Data is sent here in form of plain text, that’s why it is not so secured.
+3. Some capabilities are disabled because of not proper interlinking of the
+remote and local devices.
+
+commands
+
+enable
+configure terminal
+hostname R1
+interface g0/0
+ip add 192.168.1.1 255.255.255.0
+end
+wr
+configure terminal
+enable secret cisco
+end
+exit
+enable
+cisco
+configure terminal
+line vty 0 5
+login
+password 12
+end
+
+3) Select PC open command prompt. Enter following command
+ping 192.168.1.1
+telent 192.168.1.1
+12
+enable
+cisco

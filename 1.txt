@@ -1,13 +1,17 @@
 EXPERIMENT NO. 1
+
 Title: To implement various basic Linux commands
+
 Aim: - To implement various basic Linux commands
+
 System Software: -Ubuntu System
+
 Theory/ Working Principle:
+
 Linux is an operating system's kernel. Linux is free and open-source, that means
-that you can
-simply change anything in Linux and redistribute it in your own name! There are
-several Linux
+that you can simply change anything in Linux and redistribute it in your own name! There are several Linux
 Distributions, commonly called “distros”.
+
 ● Ubuntu Linux
 ● Red Hat Enterprise Linux
 ● Linux Mint

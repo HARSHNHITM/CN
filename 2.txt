@@ -1,13 +1,13 @@
 Commands
 
 ifconfig
-ping google.com
-traceroute google.com
+ping nhitm.ac.in
+traceroute nhitm.ac.in
 route
 arp
 Rarp
 netstat
-nslookup
+nslookup nhitm.ac.in
 dig nhitm.ac.in
 
 
